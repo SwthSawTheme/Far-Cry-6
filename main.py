@@ -14,7 +14,7 @@ def getPointer(base, offsets):
     addr += offsets[-1]
     return addr
 
-
+#Função principal para execução
 while True:
     try:
         pm.write_float(getPointer(module + endereco,offset),1000.0)
